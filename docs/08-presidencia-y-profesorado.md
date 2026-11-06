@@ -2,119 +2,148 @@
 
 [← Volver al índice](../README.md)
 
-La **presidencia** de las jornadas y el **profesorado** de la asignatura comparten la mayor parte de las herramientas de gestión. El profesorado dispone además de algunas herramientas exclusivas (importación de alumnos, aleatorización, integridad y borrado masivo).
+La **presidencia** de las jornadas y el **profesorado** de la asignatura comparten casi todas las herramientas de gestión. El profesorado tiene además tres exclusivas (importar alumnos, borrarlos todos y aleatorizar) y la presidencia tiene su propia cola de revisión.
 
 | Herramienta | Presidente | Profesor |
 |---|:-:|:-:|
-| Configurar curso | ✔ | ✔ |
-| Gestionar alumnos (ver, editar roles, crear) | ✔ (no ve al profesorado) | ✔ |
-| Gestionar evidencias (todas) | ✔ | ✔ |
-| Gestionar reuniones (todas) | ✔ | ✔ |
-| Gestionar comités | ✔ | ✔ |
-| Exportaciones | ✔ | ✔ |
-| Importaciones (alumnos desde Excel) | | ✔ |
-| Aleatorizar evidencias | | ✔ |
-| Comprobar integridad | | ✔ |
-| Borrar todos los usuarios | | ✔ |
+| Configurar curso | Sí | Sí |
+| Alumnos (ver, editar, dar roles, crear) | Sí (no ve al profesorado) | Sí |
+| Revisar evidencias (cola de presidencia) | Sí | No |
+| Evidencias (todas, mover, aceptar o rechazar) | Sí | Sí |
+| Reuniones, Asistencias y Bonos (consulta) | Sí | Sí |
+| Comités | Sí | Sí |
+| Integridad | Sí | Sí |
+| Exportar | Sí | Sí |
+| Registro de actividad y Errores | Sí | Sí |
+| Importar alumnos desde Excel | No | Sí |
+| Borrar todos los usuarios | No | Sí |
+| Aleatorizar evidencias | No | Sí |
 
-Las herramientas están en los bloques **PRESIDENCIA** o **HERRAMIENTAS DEL PROFESOR** del menú lateral, según el rol.
+Las herramientas están en el grupo **Gestión** del menú lateral. Al entrar, tu inicio es el **Panel del curso**: horas acreditadas, participación, evidencias por revisar y aceptación, el estado de cada comité, la actividad reciente, las señales del registro, los accesos, los errores del servidor, la cola de presidencia y los plazos.
 
 ## Puesta en marcha de un curso (orden recomendado)
 
-1. **Profesor:** importar el listado de alumnos desde Excel (*Importaciones*).
-2. **Profesor:** revisar los comités (*Gestionar comités*).
-3. **Profesor o presidente:** configurar las cinco fechas límite (*Configurar curso*).
-4. **Profesor:** dar el rol *Presidente* a la persona que preside las jornadas (*Gestionar alumnos*).
-5. **Presidente:** asignar los roles de coordinador, secretario y coordinador de registro y su comité (*Gestionar alumnos*).
-6. Avisar al alumnado de que establezca su contraseña con **«He olvidado mi contraseña o soy nuev@ en Evidentia»** ([capítulo 2](02-acceso-y-perfil.md#primer-acceso-establecer-tu-contraseña)).
+1. **Profesor:** importar el listado de alumnos desde Excel (*Importar*).
+2. **Profesor o presidente:** revisar los comités (*Comités*).
+3. **Profesor o presidente:** configurar los cinco plazos (*Configurar curso*).
+4. **Profesor:** dar el rol *Presidente* a la persona que preside las jornadas (*Alumnos*).
+5. **Presidente:** asignar los roles de coordinador, secretario y coordinador de registro y su comité (*Alumnos*).
+6. Avisar al alumnado de que establezca su contraseña desde la pantalla de acceso ([capítulo 2](02-acceso-y-perfil.md#primer-acceso-establecer-tu-contraseña)).
 
 ## Configurar curso
 
-Define las cinco **fechas límite** del curso, cada una con día y hora:
+Define los cinco **plazos** del curso, cada uno en su tarjeta con **Día** y **Hora** (obligatorios). Cada tarjeta indica si el plazo está *Abierto*, *Cerrado* o *Sin plazo*.
 
 | Plazo | Qué bloquea al vencer |
 |---|---|
-| **Subida de nuevas evidencias** | Crear, editar, volver a publicar y borrar evidencias (estudiantes). |
-| **Validación de evidencias** | Aceptar y rechazar evidencias (coordinadores). Debe ser **posterior** a la de subida. |
-| **Registro de reuniones** | Fecha de referencia para las actas de los secretarios; se muestra a los estudiantes. |
+| **Subida de evidencias** | Crear, editar, publicar, volver a enviar y borrar evidencias, subir pruebas y que el autor cambie de comité su evidencia. |
+| **Validación de evidencias** | Aceptar y rechazar evidencias (coordinación y presidencia) y que la coordinación las mueva de comité. No puede ser anterior a la de subida. |
+| **Registro de reuniones** | Crear, editar y borrar actas (secretarios). |
 | **Registro de bonos** | Crear, editar y borrar bonos de horas (secretarios). |
-| **Registro de eventos y asistencias** | Ajustes de Eventbrite y carga de eventos y asistencias (coordinador de registro). |
+| **Registro de eventos y asistencias** | Eventbrite, eventos y asistencias (coordinador de registro). |
 
-Pulsa **Guardar configuración**. Para poder guardar, **las cinco fechas deben ser posteriores al día de hoy**; si necesitas modificar una fecha una vez que otra ya ha vencido, tendrás que adelantar también la vencida a una fecha futura.
+Pulsa **Guardar configuración**. Puedes guardar una fecha ya pasada: el plazo queda cerrado. El cambio queda anotado en el registro de actividad.
 
-Las fechas se muestran a todos los usuarios en el panel principal y, con cuenta atrás, en las secciones correspondientes.
-
-> Deja margen entre el cierre de subida y el de validación: los coordinadores necesitan tiempo para revisar, y los estudiantes para corregir los rechazos antes de que cierre la subida.
+> Deja margen entre el cierre de subida y el de validación: la coordinación necesita tiempo para revisar, y los estudiantes para corregir los rechazos antes de que cierre la subida.
 
 ## Gestionar alumnos
 
-Muestra el listado de usuarios (apellidos, nombre, UVUS y roles). Al pulsar sobre un nombre se abre su **perfil**, con todas sus evidencias publicadas; desde ahí puedes abrir cada evidencia, comprobar su integridad y descargar sus pruebas.
+**Alumnos** muestra todos los usuarios salvo tu propia cuenta, con las columnas **Apellidos y nombre** (con el correo), **UVUS**, **DNI** y **Roles** (por ejemplo *Coordinador de* un comité, o *Bloqueado*). Puedes filtrar por **Rol** y por **Estado** (*Todos*, *Activos*, *Bloqueados*), buscar, ordenar y pasar de página. La presidencia **no ve** las cuentas con rol Profesor.
 
-La presidencia **no ve** las cuentas con rol Profesor.
+Al pulsar una fila se abre el **perfil** del usuario (su expediente): resumen de horas, datos de la cuenta (comités, último acceso, número de accesos, estado) y pestañas **Evidencias**, **Reuniones**, **Firmas**, **Asistencias**, **Bonos**, **Actividad** y **Mensajes**. Desde ahí puedes **Descargar expediente** (CSV) o **Gestionar la cuenta**.
 
 ### Editar un usuario
 
-Pulsa el icono de edición de la fila. El formulario tiene cuatro apartados:
+Pulsa el icono **Gestionar** de la fila (o **Gestionar la cuenta** en su perfil). La página tiene tres tarjetas:
 
-| Apartado | Contenido |
+| Tarjeta | Contenido |
 |---|---|
-| **Datos personales** | UVUS, nombre, apellidos y correo. UVUS y correo deben ser únicos. |
-| **Configuración** | Interruptor **Permitir acceso a la aplicación** y selector de **roles** (puedes marcar varios). Si asignas *Coordinador* o *Secretario*, debes elegir además el **comité asociado**. |
-| **Cambio de contraseña** | Opcional. Si la rellenas (mínimo 6 caracteres, dos veces), sustituye la del usuario. |
+| **Datos personales** | Nombre, apellidos, UVUS y correo. UVUS y correo deben ser únicos. |
+| **Acceso y roles** | Interruptor **Permitir acceso a la aplicación** y casillas de **Roles** (puedes marcar varios). Si marcas *Coordinador* o *Secretario*, debes elegir además el **Comité**. |
+| **Cambio de contraseña** | Opcional. Si la rellenas (dos veces), sustituye la del usuario. Mínimo 8 caracteres con mayúscula, minúscula, número y símbolo. |
 
-Pulsa **Actualizar usuario**.
+Al lado verás sus **Horas computadas** (en evidencias, en reuniones, en asistencia y bonificadas). Pulsa **Guardar cambios**.
 
 Notas:
 
 - Al guardar se sustituyen **todos** los roles anteriores por los marcados. Revisa que el rol *Estudiante* sigue marcado en quien deba tenerlo.
 - El comité elegido se aplica tanto al rol Coordinador como al rol Secretario si la persona tiene ambos.
-- La presidencia no puede asignar el rol *Profesor*.
+- La presidencia no puede asignar el rol *Profesor* ni gestionar cuentas del profesorado.
+- Los cambios quedan anotados en el registro de actividad.
 
-### Añadir un usuario manualmente
+### Añadir un usuario a mano
 
-Al pie de *Gestionar alumnos* hay un formulario **Añadir nuevo usuario** con nombre, apellidos, correo y UVUS. El usuario se crea con rol *Estudiante* y una contraseña aleatoria: deberá establecer la suya con **«He olvidado mi contraseña o soy nuev@ en Evidentia»**.
+Pulsa **Nuevo usuario** en *Alumnos* y rellena nombre, apellidos, correo y UVUS (los cuatro obligatorios; correo y UVUS únicos). Pulsa **Añadir usuario**. Se crea con rol *Estudiante* y una contraseña aleatoria: deberá establecer la suya desde la pantalla de acceso.
 
 Para altas masivas usa la **importación desde Excel** (solo profesorado, ver más abajo).
 
 ### Borrar todos los usuarios (solo profesorado)
 
-En el menú **Acciones** de *Gestionar alumnos*, la opción **Borrar todos los usuarios** elimina **todos los usuarios excepto el tuyo** junto con sus evidencias, asistencias y reuniones. Está pensada para limpiar la instancia al principio del curso o tras hacer pruebas. Pide confirmación explícita y **no se puede deshacer**.
+El botón **Borrar todos** de *Alumnos* elimina **todos los usuarios excepto el tuyo** junto con sus evidencias, mensajes, avisos, asistencias y las reuniones que registraron. Está pensado para limpiar la instancia al principio del curso o tras hacer pruebas. Pide confirmación (**Sí, borrar todos**) y **no se puede deshacer**.
 
-## Gestionar comités
+## Revisar evidencias (presidencia)
 
-Muestra la tabla de comités con su icono, su nombre y una previsualización.
+La cola de la presidencia tiene pestañas por estado y reúne las evidencias enviadas al **comité de presidencia** y las que un coordinador escribe para el comité que coordina. Se aceptan o rechazan igual que en la cola de un coordinador ([capítulo 5](05-coordinador.md#revisar-una-evidencia)), mientras el plazo de validación esté abierto. Tus propias evidencias no aparecen.
 
-- **Editar**: cambia el icono o el nombre directamente en la tabla y pulsa **Guardar comités**. El icono es el código HTML de un icono de [Font Awesome](https://fontawesome.com/icons?d=gallery), por ejemplo `<i class="fas fa-warehouse"></i>`.
-- **Crear**: rellena el formulario **Crear nuevo comité** (icono opcional, nombre obligatorio y único) y pulsa **Crear comité**.
-- **Eliminar**: pulsa **Eliminar** en la fila. Un comité solo puede eliminarse si **no tiene coordinador ni secretario, no tiene evidencias (en ningún estado) y no tiene reuniones**. Si no se cumple, la ventana te indica cuántos elementos lo impiden.
+## Evidencias
 
-## Gestionar evidencias
+Tabla con **todas las evidencias enviadas** de todos los comités (los borradores no aparecen), con pestañas **Todas**, **Pendientes**, **Atrasadas** (pendientes desde hace más de 7 días), **Aceptadas** y **Rechazadas**. Puedes filtrar por **Comité** y por fecha de envío (**Enviada desde**, **Enviada hasta**), buscar y ordenar; se muestra el total de horas de la búsqueda. El autor lleva a su perfil y el comité a su página.
 
-Tabla con **todas las evidencias publicadas** de todos los comités (las que están en borrador no aparecen): ID, título, autor, horas, comité, fecha y estado. Puedes buscar y ordenar. Pulsa el título para abrir la evidencia (con su comprobación de integridad y sus pruebas) o el nombre del autor para ver su perfil.
+Al abrir el **Historial** de una evidencia tienes dos acciones de gestión:
 
-Desde aquí no se aceptan ni rechazan evidencias: esa decisión corresponde al coordinador de cada comité.
+- **Mover a otro comité**: elige el **Comité de destino** y pulsa **Mover**. Conserva las pruebas, la descripción y el estado.
+- **Aceptar o rechazar**: elige la **Decisión** y pulsa **Guardar**. Si rechazas, el **Motivo del rechazo** es obligatorio (entre 10 y 1000 caracteres).
 
-## Gestionar reuniones
+Ambas funcionan aunque el plazo esté cerrado, pero entonces la acción **queda señalada en el registro**. No puedes revisar tus propias evidencias.
 
-Tabla con **todas las reuniones** registradas por los secretarios: título, lugar, horas, comité, número de asistentes y fecha. En la columna **Acta** puedes descargar el PDF de cada acta.
+## Reuniones, Asistencias y Bonos
 
-## Exportaciones
+Son listas de consulta de todo el curso:
 
-Genera un **archivo Excel** con una fila por estudiante (el profesorado no se incluye) con el cómputo de horas. Marca qué bloques quieres incluir y pulsa **Exportar**:
+- **Reuniones**: reunión, comité, fecha, horas, asistentes y acta (el botón **Acta** la abre). Se filtra por comité y por *Con acta* o *Sin acta*. Desde aquí también llegas a **Convocatorias** (con el PDF de cada una), **Hojas de firmas** y **Listas**.
+- **Asistencias**: todas las asistencias con las horas que computan, con pestañas **Todas**, **Asistidas**, **Pendientes** y **No asistidas** y filtro por evento, y los eventos con sus inscritos.
+- **Bonos**: bono, comité, personas, horas y fecha de creación.
 
-| Columnas siempre presentes | Apellidos, Nombre, UVUS, Correo, Perfil (enlace), Participación (nivel de implicación), Comité, Evidencia aleatoria (enlace) y Horas de evidencia aleatoria |
+## Comités
+
+Tabla de comités con su **Equipo** (avisa *Sin coordinación* o *Sin secretaría*), evidencias **Pendientes**, **Horas**, **Reuniones**, **Última actividad** y **Alertas** (*Todo en orden* si no hay ninguna).
+
+- **Crear**: pulsa **Nuevo comité**, escribe el **Nombre** (obligatorio y único) y elige un **Icono**. Pulsa **Crear comité**.
+- **Editar**: cambia el nombre o el icono en **Editar el comité** y pulsa **Guardar**. Dos comités no pueden llamarse igual.
+- **Eliminar**: el botón **Eliminar el comité** solo aparece si el comité no es el de presidencia, **no tiene coordinador ni secretario, no tiene evidencias (en ningún estado) y no tiene reuniones**.
+
+Al pulsar un comité se abre su página: alertas, equipo (último acceso, última acción y última revisión), horas por origen, envíos por semana, próximas convocatorias y últimas reuniones, evidencias, mensajes y actividad del comité. Las alertas avisan de:
+
+- comités sin coordinación o sin secretaría (*Asignar en Alumnos*);
+- evidencias que esperan revisión más de 7 días;
+- convocatorias ya celebradas sin acta;
+- mensajes sin responder más de 3 días;
+- más de 21 días sin reuniones;
+- evidencias rechazadas sin corregir más de 7 días.
+
+Muchas alertas incluyen un botón (por ejemplo *Escribir a la coordinación* o *Escribir a la secretaría*) que abre un mensaje ya redactado.
+
+## Mensajes, Registro de actividad y Errores
+
+- **Mensajes**: la presidencia puede leer todas las conversaciones, pero solo participa en las dirigidas a ella o que ha iniciado. El profesorado puede participar en todas.
+- **Registro de actividad**: todas las anotaciones del curso, con filtros (quién, acción, señales...) y **Descargar CSV**.
+- **Errores**: los errores del servidor con el número de veces y la última vez. Cada uno puede **Marcar como resuelto** o **Reabrir**.
+
+## Exportar
+
+Genera un **archivo Excel** con una fila por usuario (el profesorado no se incluye) con el cómputo de horas. En la tarjeta *Horas del curso*, marca en **Qué incluir** los bloques que quieres y pulsa **Descargar Excel**:
+
+| Columnas siempre presentes | Apellidos, Nombre, Uvus, Correo, Perfil (enlace), Comité, Evidencia aleatoria y Horas de evidencia aleatoria |
 |---|---|
-| **Evidencias** | Evidencias registradas (aceptadas) y Horas de evidencias |
+| **Evidencias** | Evidencias registradas y Horas de evidencias |
 | **Reuniones** | Reuniones asistidas y Horas de reuniones |
-| **Eventos** | Eventos asistidos y Horas de asistencia |
-| **Bono de horas** | Bono de horas |
+| **Asistencia** | Asistencias y Horas de asistencia |
+| **Bonos de horas** | Bono de horas |
 | Última columna | **Horas en total**, suma de los bloques marcados |
 
-La columna *Comité* refleja los comités a los que el estudiante ha enviado evidencias aceptadas y, si es coordinador o secretario, el suyo.
+## Importar alumnos (solo profesorado)
 
-## Importaciones (solo profesorado)
-
-Permite dar de alta a todo el alumnado de una vez a partir de un archivo **Excel (XLS/XLSX)**.
+Da de alta a todo el alumnado de una vez a partir de un archivo **Excel (.xls o .xlsx)**. Llegas desde **Importar** en el menú o en *Alumnos*.
 
 1. Prepara el archivo con estas columnas en la primera fila, **exactamente con estos nombres**:
 
@@ -122,28 +151,29 @@ Permite dar de alta a todo el alumnado de una vez a partir de un archivo **Excel
    |---|---|---|---|---|
    | Polo Polo | Marco | marpolpol | Grupo 1 | polo@mail.com |
 
-2. Comprueba que **UVUS y email son únicos** y que no hay celdas combinadas.
-3. En **Importaciones**, arrastra el archivo al cuadro de subida y pulsa **Importar alumnos**. No cierres la página mientras se procesa.
+2. Comprueba que **UVUS y correo son únicos** y que no hay celdas combinadas.
+3. Arrastra el archivo al cuadro *Hoja de cálculo* (o púlsalo para elegirlo) y pulsa **Importar alumnos**. No cierres la página mientras se procesa.
 
-Todos los usuarios importados reciben el rol **Estudiante** y una contraseña aleatoria. El archivo se borra del sistema tras la importación. Después, indica al alumnado que establezca su contraseña desde la pantalla de acceso.
+Todos los usuarios importados reciben el rol **Estudiante** y una contraseña aleatoria. El archivo se borra tras la importación. Después, indica al alumnado que establezca su contraseña desde la pantalla de acceso.
 
-Si el archivo contiene un UVUS o correo que ya existe, la importación se interrumpe con un error (las filas anteriores a la errónea pueden haberse importado ya): corrige el archivo, quita de él los alumnos ya dados de alta y vuelve a intentarlo.
+Si algo falla (por ejemplo, un UVUS o correo que ya existe), la importación se cancela entera y no se da de alta a nadie: corrige el archivo y vuelve a intentarlo.
 
 ## Aleatorizar evidencias (solo profesorado)
 
-Selecciona **al azar una evidencia aceptada de cada estudiante** para su evaluación. El resultado se refleja en la exportación (columnas *Evidencia aleatoria* y *Horas de evidencia aleatoria*).
+Elige **al azar una evidencia aceptada de cada alumno** para su evaluación. El resultado aparece en la exportación (columnas *Evidencia aleatoria* y *Horas de evidencia aleatoria*) y la página muestra cuántas **Evidencias elegidas** hay.
 
-Pulsa **Aleatorizar evidencias**. Puedes ejecutarlo varias veces; cada ejecución descarta la selección anterior y puede cambiar la evidencia elegida. Los estudiantes sin evidencias aceptadas quedan sin selección.
+Pulsa **Aleatorizar** y confirma con **Sí, aleatorizar**. Puedes repetirlo; cada vez se sustituye la elección anterior.
 
-## Comprobar integridad (solo profesorado)
+## Integridad
 
-Muestra dos pestañas, **Evidencias** y **Pruebas**, con todos los registros del sistema y una columna **Integridad** que indica si el sello de cada evidencia o archivo coincide con su contenido actual. Un fallo de integridad significa que la evidencia o el archivo se ha modificado fuera de la aplicación después de su registro.
+Muestra dos pestañas, **Evidencias** y **Pruebas**, con todos los registros y una columna **Integridad** (*Íntegra* o *Alterada*). Arriba se cuentan las evidencias y pruebas alteradas. Una alteración significa que la evidencia o el archivo se ha modificado fuera de la aplicación después de su registro.
 
 ## Lista de comprobación de cierre del curso
 
 - [ ] Han vencido los plazos de subida y de validación.
+- [ ] La cola de presidencia está vacía.
 - [ ] Los secretarios han levantado todas las actas y registrado los bonos.
 - [ ] El coordinador de registro ha cargado las asistencias de todos los eventos.
-- [ ] He ejecutado **Aleatorizar evidencias**.
-- [ ] He comprobado la **integridad**.
-- [ ] He generado la **exportación** completa (evidencias, reuniones, eventos y bonos).
+- [ ] Se ha ejecutado **Aleatorizar evidencias**.
+- [ ] Se ha comprobado la **integridad**.
+- [ ] Se ha generado la **exportación** completa (evidencias, reuniones, asistencia y bonos).
