@@ -54,7 +54,7 @@ Consejos:
 
 Límites: **50 MB por archivo** y **200 MB en total** por evidencia. El navegador te avisa antes de subir si superas alguno.
 
-> Si tu archivo no está en la lista, expórtalo a PDF o mételo en un ZIP antes de adjuntarlo.
+> Si tu archivo no está en la lista, expórtalo a PDF o mételo en un ZIP antes de adjuntarlo. Mejor PDF o foto siempre que puedas: quien revisa los abre en el navegador sin descargarlos.
 
 #### Quién revisa tu evidencia
 
@@ -83,7 +83,7 @@ Pulsa el título para abrir la evidencia. Mientras el plazo de subida esté abie
 
 Al abrir una evidencia verás su estado, su comité y su código (`EV-0000`), y dos pestañas:
 
-- **Detalle**: los pasos recorridos (*Borrador*, *Enviada a revisión*, *Aceptada* o *Rechazada*), el motivo del rechazo si lo hay, la **Descripción**, las **Pruebas** (cada una descargable) y la tarjeta **Datos**.
+- **Detalle**: los pasos recorridos (*Borrador*, *Enviada a revisión*, *Aceptada* o *Rechazada*), el motivo del rechazo si lo hay, la **Descripción**, las **Pruebas** y la tarjeta **Datos**. Cada prueba tiene un botón para **descargarla**; las fotos (JPG, PNG, GIF, WebP, AVIF) y los PDF tienen además el botón **Ver**, con un ojo, que las abre en una pestaña nueva sin descargarlas.
 - **Historial**: todas las **versiones** de la evidencia con su estado y comité, cada cambio con su fecha y los **mensajes sobre esta evidencia** (abiertos o resueltos).
 
 Desde la cabecera puedes **Editar**, **Corregir** o **Eliminar** (mismas condiciones que en la lista), **Escribir al coordinador** (o **Escribir a presidencia**) sobre esa evidencia y **Cambiar de comité**.

@@ -35,7 +35,7 @@ Al abrir una evidencia verás:
 - su estado, su comité y su código (`EV-0000`);
 - los pasos recorridos y, si la evidencia tuvo versiones rechazadas, el aviso con el **motivo del rechazo**;
 - la **Descripción** completa;
-- las **Pruebas** adjuntas, cada una descargable;
+- las **Pruebas** adjuntas, cada una descargable; las fotos y los PDF se abren además en una pestaña nueva con el botón **Ver**, sin descargarlos;
 - la tarjeta **Datos** (registro, comité, horas, estado, última edición y autor);
 - la pestaña **Historial**, con todas sus versiones, cada cambio con su fecha y los mensajes sobre ella.
 

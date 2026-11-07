@@ -60,7 +60,7 @@ Una persona con varios roles ve la suma de sus columnas.
 | Borrador | ✔ | | |
 | Pendiente, Aceptada o Rechazada | ✔ | ✔ | ✔ |
 
-Los archivos adjuntos (pruebas) los pueden descargar las mismas personas que pueden ver la evidencia.
+Los archivos adjuntos (pruebas) los pueden ver y descargar las mismas personas que pueden ver la evidencia.
 
 ## Firmar asistencia a una reunión
 
