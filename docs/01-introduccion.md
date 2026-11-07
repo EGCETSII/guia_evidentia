@@ -82,7 +82,7 @@ Evidentia calcula automáticamente el total de horas de cada estudiante como la 
 
 | Fuente | Quién la registra | Cómo se obtiene |
 |---|---|---|
-| **Evidencias** | El propio estudiante | Suma de las horas de tus evidencias **aceptadas** |
+| **Evidencias** | El propio estudiante | Suma de las horas de tus evidencias **aceptadas**, incluidas aquellas en las que figuras como **coautor** |
 | **Reuniones** | El secretario del comité | Duración de las reuniones en cuya acta apareces como asistente |
 | **Asistencia** | El coordinador de registro (desde Eventbrite o a mano) | Duración de los eventos en los que constas como **asistido** (check-in realizado) |
 | **Bonos** | El secretario del comité | Bonos de horas que un secretario te haya asignado |

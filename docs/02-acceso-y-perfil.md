@@ -142,7 +142,7 @@ Desde **Mi perfil → Preferencias de avisos** decides qué avisos te llegan tam
 | Grupo | Avisos |
 |---|---|
 | **Siempre en la bandeja y por correo** (no se pueden desactivar) | Evidencia rechazada, recordatorios de plazos, resumen semanal |
-| **También por correo** | Evidencia aceptada, evidencia movida de comité, evidencia recibida en tu comité, mensaje nuevo, respuesta en un hilo, te incluyen en un acta, cambio de roles |
+| **También por correo** | Evidencia aceptada, coautoría en una evidencia, evidencia movida de comité, evidencia recibida en tu comité, mensaje nuevo, respuesta en un hilo, te incluyen en un acta, cambio de roles |
 | **Solo en la bandeja, salvo que lo pidas** | Convocatoria de reunión, hilo resuelto o reabierto |
 
 Los coordinadores y secretarios tienen además la opción **Resumen diario**: un correo al día con las evidencias recibidas en lugar de uno por evidencia. Pulsa **Guardar**.
@@ -159,6 +159,13 @@ Con **Mis mensajes → Escribir un mensaje** puedes escribir a quien responde po
 Las respuestas llegan al mismo hilo, donde puedes **Responder**. También puedes escribir directamente desde una evidencia (**Escribir al coordinador** o **Escribir a presidencia**).
 
 Quienes tienen un cargo (coordinadores, secretarios, coordinador de registro, presidencia y profesorado) reciben los mensajes en la bandeja **Mensajes**, donde pueden filtrarlos, responder y **Marcar como resuelto** o **Reabrir** cada hilo.
+
+## Buscar acuerdos
+
+Cualquier usuario puede buscar en las actas de **todos los comités** desde **Buscar acuerdos** en el menú. La página tiene dos pestañas.
+
+- **Acuerdos** busca por palabras en el texto de los acuerdos, en el título de su punto o de su reunión, o por su **identificador**. Si escribes un identificador exacto, ese acuerdo sale el primero. Cada resultado muestra el acuerdo, el punto del orden del día, la reunión y la fecha, y lleva a su acta.
+- **Reuniones** busca por palabras en el título, el lugar, el comité y los puntos y acuerdos de las actas, con el comité, el número de acuerdos y la fecha. El botón de cada fila muestra todos los acuerdos de esa reunión.
 
 ## Mi actividad
 

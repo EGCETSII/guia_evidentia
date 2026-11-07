@@ -37,6 +37,7 @@ Consejos:
    | **Duración** (**Horas** y **Minutos**) | Tiempo dedicado. Rellena al menos uno de los dos. Horas: número entero o decimal hasta 99. Minutos: entero hasta 60. Por ejemplo, 1 hora y 30 minutos se guarda como 1,5 horas. |
    | **Comité** | El comité al que va dirigida. Será su coordinación quien la revise (ver [Quién revisa tu evidencia](#quién-revisa-tu-evidencia)). |
    | **Descripción** | Texto sin formato, entre 10 y 20 000 caracteres. |
+   | **Coautores** | Opcional. Elige a los compañeros que hicieron el trabajo contigo (hasta 20). Cuando se acepte la evidencia, cada coautor suma **todas sus horas**, igual que tú. |
    | Pruebas | Arrastra los archivos a la zona **«Arrastra aquí las pruebas o pulsa para elegirlas»** o púlsala para elegirlos. Puedes adjuntar varios. |
 
 3. Elige cómo guardarla:
@@ -73,6 +74,8 @@ En la cabecera tienes **Nueva evidencia** (mientras el plazo de subida esté abi
 
 **Descargar copia** baja un archivo ZIP con todas tus evidencias, borradores incluidos. Dentro va *evidencias.csv*, con una fila por evidencia (título, descripción, horas, estado, fechas y nombres de las pruebas), y la carpeta *pruebas* con los archivos de cada una. Guárdalo como copia de tu trabajo al acabar las jornadas.
 
+Debajo, la tabla **Evidencias en coautoría** reúne las evidencias de otros compañeros que te han nombrado coautor, con su **Autor**, **Horas** y **Estado**. Puedes abrirlas y descargar sus pruebas, pero solo su autor las edita. Los borradores no aparecen hasta que el autor los publica. Cuando te añaden como coautor recibes el aviso *«Te han añadido como coautor»*, y cuando la evidencia se acepta te llega el mismo aviso de aceptación que al autor.
+
 Pulsa el título para abrir la evidencia. Mientras el plazo de subida esté abierto, cada fila ofrece además estas acciones:
 
 | Acción | Cuándo está disponible | Qué hace |
@@ -85,7 +88,7 @@ Pulsa el título para abrir la evidencia. Mientras el plazo de subida esté abie
 
 Al abrir una evidencia verás su estado, su comité y su código (`EV-0000`), y dos pestañas:
 
-- **Detalle**: los pasos recorridos (*Borrador*, *Enviada a revisión*, *Aceptada* o *Rechazada*), el motivo del rechazo si lo hay, la **Descripción**, las **Pruebas** y la tarjeta **Datos**. Cada prueba tiene un botón para **descargarla**; las fotos (JPG, PNG, GIF, WebP, AVIF) y los PDF tienen además el botón **Ver**, con un ojo, que las muestra en una ventana sobre la propia página sin descargarlas; desde ahí también puedes abrirlas en otra pestaña o descargarlas.
+- **Detalle**: los pasos recorridos (*Borrador*, *Enviada a revisión*, *Aceptada* o *Rechazada*), el motivo del rechazo si lo hay, la **Descripción**, las **Pruebas**, los **Coautores** si los tiene y la tarjeta **Datos**. Cada prueba tiene un botón para **descargarla**; las fotos (JPG, PNG, GIF, WebP, AVIF) y los PDF tienen además el botón **Ver**, con un ojo, que las muestra en una ventana sobre la propia página sin descargarlas; desde ahí también puedes abrirlas en otra pestaña o descargarlas.
 - **Historial**: todas las **versiones** de la evidencia con su estado y comité, cada cambio con su fecha y los **mensajes sobre esta evidencia** (abiertos o resueltos).
 
 Desde la cabecera puedes **Editar**, **Corregir** o **Eliminar** (mismas condiciones que en la lista), **Escribir al coordinador** (o **Escribir a presidencia**) sobre esa evidencia y **Cambiar de comité**.
@@ -96,7 +99,7 @@ Solo puedes editar evidencias **en borrador** (si está rechazada, primero pulsa
 
 Cada vez que guardas una edición, Evidentia **crea una nueva versión** de la evidencia y conserva las anteriores. En *Mis evidencias* solo ves la versión más reciente. En el formulario de edición, la tarjeta **Ediciones** muestra todas las versiones con su fecha; la que estás editando aparece marcada como *Editando ahora* y puedes abrir cualquier otra para retomar el trabajo desde ella.
 
-Al editar, las pruebas de la versión anterior se cargan automáticamente en el formulario: puedes quitarlas o añadir otras antes de guardar o publicar.
+Al editar, las pruebas y los coautores de la versión anterior se cargan automáticamente en el formulario: puedes quitarlos o añadir otros antes de guardar o publicar.
 
 ### Si te rechazan una evidencia
 
@@ -139,6 +142,8 @@ Las evidencias que dejes **en borrador** al cerrar el plazo **no serán revisada
 
 Pulsa el título de una reunión para ver su acta: los **Puntos y acuerdos**, los **Datos** de la reunión, los **Asistentes** y el botón **Descargar PDF**.
 
+Para buscar un acuerdo en las actas de cualquier comité, usa **Buscar acuerdos** (ver [capítulo 2](02-acceso-y-perfil.md#buscar-acuerdos)).
+
 Si has asistido a una reunión y no aparece aquí, pulsa **Escribir a la secretaría** (o el icono de enviar de la fila de esa reunión): puede que el secretario aún no haya levantado acta o que no te haya incluido entre los asistentes.
 
 ## Mis asistencias
@@ -159,6 +164,12 @@ Estos datos los sincroniza el **coordinador de registro** desde Eventbrite; no s
 
 - Inscríbete en Eventbrite con **el mismo nombre y apellidos** (o, al menos, el mismo correo) que tienes en Evidentia. La aplicación empareja las inscripciones de Eventbrite con las cuentas de Evidentia por nombre y apellidos y, si no coinciden, por correo. Si no hay coincidencia, tu asistencia no se importa.
 - Asegúrate de que en el evento te hagan el **check-in**. Sin check-in, tu estado seguirá siendo *Pendiente de asistir* y no contará horas.
+
+### Certificados y diplomas
+
+En cada evento con estado **Asistido** tienes el botón **Descargar el certificado**, con el icono de una medalla. Baja un PDF que acredita tu asistencia y sus horas. Si la presidencia o el profesorado te han emitido un **diploma** (por dar una charla o ganar un concurso, por ejemplo), aparece en la tabla **Mis diplomas** de esta misma página, con su botón de descarga.
+
+Cada documento lleva al pie un **código de verificación** del tipo `ABCD-EFGH-JKMN`. Cualquiera puede comprobarlo sin iniciar sesión en la página pública [evidentia.us.es/certificados/verificar](https://evidentia.us.es/certificados/verificar).
 
 Si crees que falta una asistencia, pulsa **Escribir a la coordinación de registro** (o el icono de enviar de la fila del evento): puede añadirla o corregirla manualmente.
 

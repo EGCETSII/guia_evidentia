@@ -105,6 +105,12 @@ Para cada persona emparejada se guarda su **estado de asistencia** tal como figu
 
 Repite la carga tantas veces como necesites; es una operación segura.
 
+### Cargar las asistencias de un estudiante
+
+Cuando un estudiante reclama una asistencia que falta, no hace falta recargar todos los eventos. En **Asistencias** pulsa **Cargar de un estudiante** (visible cuando hay un token de Eventbrite guardado), elige al **Estudiante** y pulsa **Cargar asistencias**.
+
+Evidentia consulta en Eventbrite todos los eventos del curso y guarda **solo las asistencias de esa persona**, con el mismo emparejamiento y los mismos estados que la carga completa. Puede tardar si hay muchos eventos. Al terminar verás cuántas asistencias son nuevas y cuántas se han actualizado.
+
 ### Importar asistencias desde una hoja
 
 Si un evento no está en Eventbrite o tienes la lista de asistentes en otro sitio, en **Asistencias** pulsa **Importar** (mientras el plazo de asistencias esté abierto):

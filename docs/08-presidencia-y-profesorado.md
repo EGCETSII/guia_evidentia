@@ -122,6 +122,22 @@ Son listas de consulta de todo el curso:
 - **Asistencias**: todas las asistencias con las horas que computan, con pestañas **Todas**, **Asistidas**, **Pendientes** y **No asistidas** y filtro por evento, y los eventos con sus inscritos.
 - **Bonos**: bono, comité, personas, horas y fecha de creación.
 
+## Certificados y diplomas
+
+**Certificados** (en el menú) muestra todos los documentos emitidos, con las pestañas **Todos**, **Diplomas** y **Asistencia**, un buscador y las columnas **Persona**, **Documento**, **Código** y **Emitido**. Incluye los **certificados de asistencia**, que los estudiantes descargan ellos mismos desde *Mis asistencias* para cada evento asistido, y los **diplomas** que emitís la presidencia y el profesorado.
+
+Para emitir un diploma (a un ponente, al ganador de un concurso...), pulsa **Emitir diploma** y rellena el formulario.
+
+| Campo | Indicaciones |
+|---|---|
+| **Persona** | Alguien de la plataforma, que podrá descargarlo desde su cuenta. Déjalo en *Nadie de la plataforma* para una persona de fuera. |
+| **Nombre** | Obligatorio si no eliges a nadie. Si eliges a alguien, sustituye a su nombre en el diploma. |
+| **Motivo** | Completa la frase «por...», por ejemplo «impartir la charla Docker en producción». |
+| **Texto** | Opcional, aparece bajo el motivo. |
+| **Horas** y **Fecha** | Las horas son opcionales; la fecha es la de emisión. |
+
+Cada fila permite **descargar** el PDF, abrir su **verificación** y **revocarlo**. Revocar invalida el código y no se puede deshacer. Cualquiera comprueba un código, sin iniciar sesión, en la página pública [evidentia.us.es/certificados/verificar](https://evidentia.us.es/certificados/verificar), que indica si es válido y muestra el documento, la persona, el motivo o evento, las horas y la fecha.
+
 ## Comités
 
 Tabla de comités con su **Equipo** (avisa *Sin coordinación* o *Sin secretaría*), evidencias **Pendientes**, **Horas**, **Reuniones**, **Última actividad** y **Alertas** (*Todo en orden* si no hay ninguna).
