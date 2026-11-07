@@ -42,6 +42,8 @@ Define los cinco **plazos** del curso, cada uno en su tarjeta con **Día** y **H
 | **Registro de bonos** | Crear, editar y borrar bonos de horas (secretarios). |
 | **Registro de eventos y asistencias** | Eventbrite, eventos y asistencias (coordinador de registro). |
 
+La tarjeta **Límites de horas** fija, si quieres, un tope de horas que cuentan para cada alumno, uno para **Evidencias** (horas de evidencias aceptadas) y otro para **Asistencia** (horas de eventos asistidos). Déjalos vacíos para que cuenten todas. El tope se aplica al total del panel, a la ficha de cada alumno y al Excel de **Exportar**; las horas por encima del límite se siguen viendo en el panel del alumno, por ejemplo *«8,00 h de 11,00 (límite)»*.
+
 Pulsa **Guardar configuración**. Puedes guardar una fecha ya pasada: el plazo queda cerrado. El cambio queda anotado en el registro de actividad.
 
 ### Cerrar un plazo ahora

@@ -121,7 +121,7 @@ Puedes hacerlo con la versión más reciente de tus evidencias *En borrador*, *P
 
 ### Cuándo cuentan las horas
 
-Solo las evidencias en estado **Aceptada** suman horas a tu cómputo. Las evidencias en borrador, pendientes o rechazadas no cuentan. Cuando te aceptan una, recibes un aviso con las horas que suma. El total lo ves en tu panel principal.
+Solo las evidencias en estado **Aceptada** suman horas a tu cómputo. Las evidencias en borrador, pendientes o rechazadas no cuentan. Cuando te aceptan una, recibes un aviso con las horas que suma. El total lo ves en tu panel principal. Si el curso tiene un límite de horas de evidencias o de asistencia, solo cuentan hasta ese tope y el panel lo indica con *(límite)*.
 
 ### Cuando vence el plazo de subida
 
