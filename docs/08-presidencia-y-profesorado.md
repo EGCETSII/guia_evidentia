@@ -87,9 +87,9 @@ El botón **Arreglar datos** de *Alumnos* corrige de una vez todas las cuentas s
 
 | Opción | Qué hace |
 |---|---|
-| **Correo oficial** | Pone como correo el UVUS seguido de *@alum.us.es*. Si ese correo ya lo usa otra cuenta, deja esa persona como estaba y te lo indica. |
-| **Nombres en mayúsculas** | Pasa a mayúsculas el nombre y los apellidos. |
-| **Abrir el acceso** | Permite el acceso a la aplicación a todas las cuentas bloqueadas. |
+| **Poner el correo oficial** | Pone como correo el UVUS seguido de *@alum.us.es*. Si ese correo ya lo usa otra cuenta, deja esa persona como estaba y te lo indica. |
+| **Pasar nombres y apellidos a mayúsculas** | Pasa a mayúsculas el nombre y los apellidos. |
+| **Dar acceso a todos** | Permite el acceso a la aplicación a todas las cuentas bloqueadas. |
 
 Al terminar se indica cuántos usuarios han cambiado. Cada cambio queda anotado en el registro de actividad.
 
