@@ -67,6 +67,16 @@ Pulsa **Crear evento**. Las horas se calculan con la duración y el estado se po
 
 Los eventos aparecen en el panel de inicio de todos los usuarios (tarjeta **Eventos**). Si alguno no debe mostrarse (pruebas, eventos internos, cancelados...), pulsa **Ocultar** en su fila. Los eventos ocultos llevan la etiqueta *Oculto*, siguen en tu lista de *Eventos* y puedes volver a **Mostrarlos** cuando quieras.
 
+### Agrupar eventos paralelos o repetidos
+
+Nadie puede estar en dos eventos a la vez ni sumar horas por asistir tres veces a la misma charla. Para que el sistema lo sepa, pulsa **Grupos** en la lista de *Eventos*.
+
+1. Escribe el **Nombre del grupo**, por ejemplo *Talleres del jueves por la mañana*.
+2. En **Eventos** elige al menos dos, los que se celebran a la vez o las sesiones de la misma charla.
+3. Pulsa **Agrupar**.
+
+De cada grupo solo cuentan las horas del evento más largo al que asistió cada persona. Los eventos agrupados llevan la etiqueta *Grupo* con su nombre en la lista. Si usas un nombre que ya existe, los eventos se añaden a ese grupo, y un evento que ya estaba en otro grupo pasa al nuevo. Para que vuelvan a contar por separado, pulsa **Deshacer** junto al grupo y confirma con **Sí, deshacer**.
+
 ## Paso 3: cargar las asistencias
 
 Para cada evento de Eventbrite, cuando ya se haya celebrado (o cuando quieras actualizar las inscripciones):
@@ -137,6 +147,7 @@ Recuérdales estas dos cosas antes de los eventos; evitarán la mayoría de inci
 
 - [ ] El token de Eventbrite está validado.
 - [ ] Todos los eventos de las jornadas están cargados (o creados a mano) y los que no procede mostrar están ocultos.
+- [ ] Los eventos paralelos y las charlas repetidas están agrupados.
 - [ ] Tras cada evento he vuelto a cargar sus asistencias.
 - [ ] He resuelto a mano las asistencias de quienes no se emparejaron.
 - [ ] Todo está registrado antes de que venza el plazo.
