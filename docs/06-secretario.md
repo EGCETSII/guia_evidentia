@@ -126,7 +126,15 @@ Cada acuerdo recibe un **identificador único** con el formato `ISD-<fecha>-<com
 
 ### El PDF del acta
 
-El acta generada incluye: los **datos de la reunión** (fecha, hora de comienzo y de fin calculada a partir de la duración, lugar, quién convoca, comité, tipo y modalidad), los **asistentes** con su rol (coordinación, secretaría y asistentes), el **orden del día**, el **desarrollo** de cada punto con su duración y sus acuerdos con identificador, y el **cierre** de la secretaría del comité.
+El acta generada incluye un panel con los **datos de la reunión** (fecha, horario calculado a partir de la duración, tipo, modalidad, lugar y secretaría), los **asistentes** que marcaste en el acta, una sola vez cada uno y por apellidos, con la etiqueta *Coordinación* o *Secretaría* si tienen ese cargo en el comité, el **orden del día**, el **desarrollo** de cada punto con su duración, su descripción y sus acuerdos con identificador, y el **cierre** con la firma de la secretaría.
+
+En la **Descripción** de un punto y en el texto de cada acuerdo puedes dar formato sencillo, que se respeta en el PDF y en la página del acta:
+
+- una línea en blanco separa párrafos;
+- las líneas que empiezan por `- ` forman una lista, y las que empiezan por `1. `, `2. `... una lista numerada;
+- `**texto**` pone el texto en negrita y `*texto*` en cursiva.
+
+Los PDF de actas y convocatorias se generan de nuevo cada vez que se descargan, así que siempre salen con el diseño actual, también los de reuniones antiguas.
 
 ### La lista de actas
 
