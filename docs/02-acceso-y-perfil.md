@@ -168,6 +168,8 @@ En **Mi actividad** consultas el historial de lo que has hecho en Evidentia: evi
 
 Todos los listados muestran **10 filas por página**; con **Filas por página** puedes pasar a 25 o 50. Pulsa la cabecera de una columna para ordenar por ella; en el móvil, usa el selector **Ordenar por**. Las listas con fechas muestran primero lo más reciente.
 
+En el móvil cada fila es un elemento de lista. Arriba va el título con su estado a la derecha y debajo una línea con lo esencial (autor, fecha, horas) y los botones de la fila. El resto de columnas se ve al abrir el elemento o en el ordenador.
+
 ## Ayuda y sugerencias
 
 En el pie de todas las páginas encontrarás la versión de Evidentia y estos enlaces:
