@@ -152,9 +152,11 @@ Un **bono** permite asignar horas adicionales a uno o varios estudiantes por tra
    |---|---|
    | **Motivo** | Entre 5 y 255 caracteres. |
    | **Horas** | Entre 0,5 y 99,99. Admite decimales. |
-   | **Personas** | Una o más personas. Puedes cargar a los miembros de una **Lista predeterminada**. |
+   | **Personas** | Una o más personas de tu comité. Puedes cargar a los miembros de una **Lista predeterminada**. |
 
 3. Pulsa **Guardar bono**.
+
+Solo puedes dar bonos a quien trabaja en tu comité, es decir, a quien ha enviado alguna evidencia a tu comité, ha asistido a alguna de sus reuniones o lo coordina o lleva sus actas. El profesorado nunca recibe bonos. Si una lista incluye a alguien de fuera, no se carga. Al editar un bono, quien ya estaba en él puede seguir aunque ya no cumpla la condición.
 
 La lista **Bonos** muestra las columnas **Bono**, **Personas** y **Horas**, y en la cabecera el plazo de **Registro de bonos**. Mientras está abierto puedes **editar** y **eliminar** bonos; al eliminar, la ventana **«Eliminar el bono»** te recuerda que *«Se borrarán las horas que el bono da a sus personas.»* Después de esa fecha no se pueden crear, editar ni borrar.
 
