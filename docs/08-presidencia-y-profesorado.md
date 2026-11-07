@@ -25,12 +25,14 @@ Las herramientas están en el grupo **Gestión** del menú lateral. Al entrar, t
 
 1. **Profesor:** importar el listado de alumnos desde Excel (*Importar*).
 2. **Profesor o presidente:** revisar los comités (*Comités*).
-3. **Profesor o presidente:** configurar los cinco plazos (*Configurar curso*).
+3. **Profesor o presidente:** poner el nombre del evento y configurar los cinco plazos (*Configurar curso*).
 4. **Profesor:** dar el rol *Presidente* a la persona que preside las jornadas (*Alumnos*).
 5. **Presidente:** asignar los roles de coordinador, secretario y coordinador de registro y su comité (*Alumnos*).
 6. Avisar al alumnado de que establezca su contraseña desde la pantalla de acceso ([capítulo 2](02-acceso-y-perfil.md#primer-acceso-establecer-tu-contraseña)).
 
 ## Configurar curso
+
+La tarjeta **Evento** guarda el **Nombre del evento** (obligatorio, por ejemplo *Jornadas InnoSoft Days*) y la **Edición** (opcional, por ejemplo *2026* o *2026-27*). Ambos aparecen en la pantalla de acceso y en la cabecera de todos los PDF (actas, certificados, diplomas), así que cada grupo puede usar Evidentia para su propio evento y año.
 
 Define los cinco **plazos** del curso, cada uno en su tarjeta con **Día** y **Hora** (obligatorios). Cada tarjeta indica si el plazo está *Abierto*, *Cerrado* o *Sin plazo*.
 
