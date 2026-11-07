@@ -49,7 +49,7 @@ El botón para guardar no se activa hasta que se cumplen todos.
 
 En la parte superior de cada página encontrarás:
 
-- **Migas de pan** que indican dónde estás y, en algunas páginas, un **buscador**.
+- Un enlace **volver** con una flecha, que te lleva a la página de la que vienes (por ejemplo, de una evidencia a *Mis evidencias*). En las páginas del menú no aparece, porque el menú ya marca dónde estás. En algunas páginas hay además un **buscador**.
 - **La campana**, con el número de avisos sin leer. Abre la página **Avisos** (ver [Avisos](#avisos)).
 - **Tema**: elige entre **Claro**, **Oscuro** o **Sistema** (el que tenga tu dispositivo). En el móvil está dentro del menú desplegable.
 - **Tu nombre**, con un menú con **Mi perfil**, **Atajos de teclado** (actívalos o desactívalos) y **Salir**.
