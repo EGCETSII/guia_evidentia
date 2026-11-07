@@ -116,7 +116,7 @@ Solo se puede eliminar si no tiene coordinador ni secretario, ni evidencias, ni 
 ## Otros
 
 **¿Dónde informo de un error o propongo una mejora?**
-Con el enlace **Sugerencias** del pie de página, que abre un mensaje al profesorado (no es anónimo), o en el grupo de Telegram [t.me/evidentia_sat](https://t.me/evidentia_sat).
+Con un **Nuevo mensaje** al profesorado desde **Mis mensajes** (no es anónimo) o en el grupo de Telegram [t.me/evidentia_sat](https://t.me/evidentia_sat).
 
 **¿Dónde veo lo que he hecho en Evidentia?**
 En **Mi actividad**. Cada evidencia, acta y convocatoria tiene además su propio **Historial**.

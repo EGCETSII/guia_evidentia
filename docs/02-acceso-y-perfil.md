@@ -170,13 +170,14 @@ Todos los listados muestran **10 filas por página**; con **Filas por página** 
 
 En el móvil cada fila es un elemento de lista. Arriba va el título con su estado a la derecha y debajo una línea con lo esencial (autor, fecha, horas) y los botones de la fila. El resto de columnas se ve al abrir el elemento o en el ordenador.
 
-## Ayuda y sugerencias
+## Ayuda
 
 En el pie de todas las páginas encontrarás la versión de Evidentia y estos enlaces:
 
-- **Sugerencias**: abre un mensaje al profesorado para informar de un error o proponer una mejora. **No es anónimo**: tu nombre y tu rol acompañan al mensaje.
 - **Ayuda**: la documentación del proyecto.
 - **Repositorio** y **GPL-3.0**: el código fuente y la licencia.
+
+Para informar de un error o proponer una mejora, escribe al profesorado desde **Mis mensajes** con **Nuevo mensaje**. No es anónimo, tu nombre y tu rol acompañan al mensaje.
 
 También tienes el **grupo de Telegram de asistencia técnica**: [t.me/evidentia_sat](https://t.me/evidentia_sat). El enlace está también en la pantalla de acceso.
 

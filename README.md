@@ -57,5 +57,5 @@ flowchart LR
 ## Soporte
 
 - Grupo de asistencia técnica en Telegram: [t.me/evidentia_sat](https://t.me/evidentia_sat)
-- Dentro de la aplicación: enlace **Sugerencias** del pie de página, que abre un mensaje al profesorado (no es anónimo)
+- Dentro de la aplicación: un **Nuevo mensaje** al profesorado desde **Mis mensajes** (no es anónimo)
 - Código fuente de Evidentia: [github.com/drorganvidez/evidentia](https://github.com/drorganvidez/evidentia) (licencia GNU GPL v3)
