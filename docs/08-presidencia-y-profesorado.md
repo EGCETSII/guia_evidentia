@@ -44,6 +44,10 @@ Define los cinco **plazos** del curso, cada uno en su tarjeta con **Día** y **H
 
 Pulsa **Guardar configuración**. Puedes guardar una fecha ya pasada: el plazo queda cerrado. El cambio queda anotado en el registro de actividad.
 
+### Cerrar un plazo ahora
+
+Debajo del formulario, la tarjeta **Cerrar un plazo ahora** tiene un botón por cada plazo abierto. Pulsa **Cerrar** en el que quieras y confirma con **Sí, cerrar ahora**: el plazo vence en ese mismo minuto, sin tener que escribir la fecha. Cerrar la **validación** cierra también la **subida**, porque no puede seguir abierta después. El cierre queda anotado en el registro de actividad.
+
 > Deja margen entre el cierre de subida y el de validación: la coordinación necesita tiempo para revisar, y los estudiantes para corregir los rechazos antes de que cierre la subida.
 
 ## Gestionar alumnos
@@ -76,6 +80,18 @@ Notas:
 Pulsa **Nuevo usuario** en *Alumnos* y rellena nombre, apellidos, correo y UVUS (los cuatro obligatorios; correo y UVUS únicos). Pulsa **Añadir usuario**. Se crea con rol *Estudiante* y una contraseña aleatoria: deberá establecer la suya desde la pantalla de acceso.
 
 Para altas masivas usa la **importación desde Excel** (solo profesorado, ver más abajo).
+
+### Arreglar los datos de todos (solo profesorado)
+
+El botón **Arreglar datos** de *Alumnos* corrige de una vez todas las cuentas salvo la tuya y las del profesorado. Marca lo que quieras aplicar y pulsa **Arreglar**.
+
+| Opción | Qué hace |
+|---|---|
+| **Correo oficial** | Pone como correo el UVUS seguido de *@alum.us.es*. Si ese correo ya lo usa otra cuenta, deja esa persona como estaba y te lo indica. |
+| **Nombres en mayúsculas** | Pasa a mayúsculas el nombre y los apellidos. |
+| **Abrir el acceso** | Permite el acceso a la aplicación a todas las cuentas bloqueadas. |
+
+Al terminar se indica cuántos usuarios han cambiado. Cada cambio queda anotado en el registro de actividad.
 
 ### Borrar todos los usuarios (solo profesorado)
 
@@ -163,6 +179,8 @@ Si algo falla (por ejemplo, un UVUS o correo que ya existe), la importación se 
 Elige **al azar una evidencia aceptada de cada alumno** para su evaluación. El resultado aparece en la exportación (columnas *Evidencia aleatoria* y *Horas de evidencia aleatoria*) y la página muestra cuántas **Evidencias elegidas** hay.
 
 Pulsa **Aleatorizar** y confirma con **Sí, aleatorizar**. Puedes repetirlo; cada vez se sustituye la elección anterior.
+
+Desde que se aleatoriza, los alumnos **ya no pueden cambiar su resumen del trabajo**, que queda fijo para la evaluación. El diálogo de confirmación lo recuerda.
 
 ## Integridad
 

@@ -121,6 +121,8 @@ Puedes cambiar tu **nombre**, **apellidos** y **correo electrónico**, y pulsar 
 
 Esta tarjeta no aparece para el profesorado. En el campo **Resumen del trabajo en las jornadas** describes con detalle en qué has participado (texto libre, entre 10 y 20 000 caracteres). Lo consulta el profesorado y forma parte de tu evaluación. Pulsa **Guardar el resumen**.
 
+Cuando el profesorado aleatoriza las evidencias, el resumen se **cierra**. La tarjeta muestra el aviso *«Resumen cerrado»* y el texto queda fijo, solo para leer.
+
 Si aún no lo has escrito, el resumen lateral muestra el aviso *«Sin resumen del trabajo»* con el botón **Escribir el resumen**.
 
 ### Contraseña
