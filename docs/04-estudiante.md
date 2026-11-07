@@ -71,6 +71,8 @@ Nadie revisa nunca sus propias evidencias.
 
 En la cabecera tienes **Nueva evidencia** (mientras el plazo de subida esté abierto) y **Escribir a la coordinación** (o **Escribir a presidencia**, si tu última evidencia la revisa la presidencia).
 
+**Descargar copia** baja un archivo ZIP con todas tus evidencias, borradores incluidos. Dentro va *evidencias.csv*, con una fila por evidencia (título, descripción, horas, estado, fechas y nombres de las pruebas), y la carpeta *pruebas* con los archivos de cada una. Guárdalo como copia de tu trabajo al acabar las jornadas.
+
 Pulsa el título para abrir la evidencia. Mientras el plazo de subida esté abierto, cada fila ofrece además estas acciones:
 
 | Acción | Cuándo está disponible | Qué hace |

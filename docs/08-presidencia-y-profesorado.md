@@ -157,6 +157,10 @@ Genera un **archivo Excel** con una fila por usuario (el profesorado no se inclu
 | **Bonos de horas** | Bono de horas |
 | Última columna | **Horas en total**, suma de los bloques marcados |
 
+### Copia de las evidencias
+
+La tarjeta **Copia de las evidencias** descarga con **Descargar copia** un archivo ZIP con todas las evidencias enviadas del curso (no incluye borradores ni eliminadas). Dentro va *evidencias.csv*, con una fila por evidencia (alumno, comité, título, descripción, horas, estado, fechas y pruebas), y la carpeta *pruebas*, ordenada por uvus y número de evidencia, con los archivos adjuntos. Sirve como copia de seguridad al cerrar el curso.
+
 ## Importar alumnos (solo profesorado)
 
 Da de alta a todo el alumnado de una vez a partir de un archivo **Excel (.xls o .xlsx)**. Llegas desde **Importar** en el menú o en *Alumnos*.

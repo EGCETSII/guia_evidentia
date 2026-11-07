@@ -95,6 +95,16 @@ Para cada persona emparejada se guarda su **estado de asistencia** tal como figu
 
 Repite la carga tantas veces como necesites; es una operación segura.
 
+### Importar asistencias desde una hoja
+
+Si un evento no está en Eventbrite o tienes la lista de asistentes en otro sitio, en **Asistencias** pulsa **Importar** (mientras el plazo de asistencias esté abierto):
+
+1. Elige el **Evento**.
+2. Sube la hoja (*.xlsx*, *.xls* o *.csv*). La primera fila lleva los nombres de las columnas, **uvus** o **correo** (vale también *email*); basta con una de las dos.
+3. Pulsa **Importar asistencias**.
+
+Cada fila se busca por uvus y, si no lo tiene, por correo, sin distinguir mayúsculas. Toda persona encontrada queda como **Asistido** en ese evento; si ya tenía asistencia, se actualiza. Al terminar verás cuántas son nuevas y cuántas actualizadas, y los uvus o correos que no corresponden a ningún alumno de Evidentia. Tu propia fila se salta, porque no puedes registrar tu asistencia.
+
 ## Asistencias
 
 **Asistencias** muestra todas las asistencias registradas con las columnas **Estudiante**, **Evento**, **Fecha** y **Asistencia**. Puedes buscar, ordenar y pasar de página. Desde aquí puedes:
