@@ -85,7 +85,7 @@ Pulsa el título para abrir la evidencia. Mientras el plazo de subida esté abie
 
 Al abrir una evidencia verás su estado, su comité y su código (`EV-0000`), y dos pestañas:
 
-- **Detalle**: los pasos recorridos (*Borrador*, *Enviada a revisión*, *Aceptada* o *Rechazada*), el motivo del rechazo si lo hay, la **Descripción**, las **Pruebas** y la tarjeta **Datos**. Cada prueba tiene un botón para **descargarla**; las fotos (JPG, PNG, GIF, WebP, AVIF) y los PDF tienen además el botón **Ver**, con un ojo, que las abre en una pestaña nueva sin descargarlas.
+- **Detalle**: los pasos recorridos (*Borrador*, *Enviada a revisión*, *Aceptada* o *Rechazada*), el motivo del rechazo si lo hay, la **Descripción**, las **Pruebas** y la tarjeta **Datos**. Cada prueba tiene un botón para **descargarla**; las fotos (JPG, PNG, GIF, WebP, AVIF) y los PDF tienen además el botón **Ver**, con un ojo, que las muestra en una ventana sobre la propia página sin descargarlas; desde ahí también puedes abrirlas en otra pestaña o descargarlas.
 - **Historial**: todas las **versiones** de la evidencia con su estado y comité, cada cambio con su fecha y los **mensajes sobre esta evidencia** (abiertos o resueltos).
 
 Desde la cabecera puedes **Editar**, **Corregir** o **Eliminar** (mismas condiciones que en la lista), **Escribir al coordinador** (o **Escribir a presidencia**) sobre esa evidencia y **Cambiar de comité**.
