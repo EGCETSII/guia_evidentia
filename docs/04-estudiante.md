@@ -51,9 +51,12 @@ Consejos:
 | Imágenes | Cualquier formato de imagen (JPG, PNG, GIF...) |
 | Documentos | PDF, Word `.doc` y `.docx`, Excel `.xls` y `.xlsx`, PowerPoint `.ppt` y `.pptx` |
 | OpenDocument | Texto `.odt`, hoja de cálculo `.ods`, presentación `.odp` |
+| Diseño | Photoshop `.psd`, GIMP `.xcf` |
 | Comprimidos | ZIP, RAR, 7z, TAR |
 
 Límites: **50 MB por archivo** y **200 MB en total** por evidencia. El navegador te avisa antes de subir si superas alguno.
+
+Los archivos `.psd` y `.xcf` se comprueban al subirlos: si el contenido no es de verdad un archivo de Photoshop o de GIMP, se rechaza con el aviso *«El contenido del archivo no corresponde a su formato.»* No tienen vista previa, quien revisa los descarga.
 
 > Si tu archivo no está en la lista, expórtalo a PDF o mételo en un ZIP antes de adjuntarlo. Mejor PDF o foto siempre que puedas: quien revisa los abre en el navegador sin descargarlos.
 
