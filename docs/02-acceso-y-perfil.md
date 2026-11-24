@@ -167,6 +167,8 @@ Cualquier usuario puede buscar en las actas de **todos los comités** desde **Bu
 - **Acuerdos** busca por palabras en el texto de los acuerdos, en el título de su punto o de su reunión, o por su **identificador**. Si escribes un identificador exacto, ese acuerdo sale el primero. Cada resultado muestra el acuerdo, el punto del orden del día, la reunión y la fecha, y lleva a su acta.
 - **Reuniones** busca por palabras en el título, el lugar, el comité y los puntos y acuerdos de las actas, con el comité, el número de acuerdos y la fecha. El botón de cada fila muestra todos los acuerdos de esa reunión.
 
+Encima de la tabla, **Filtros de acuerdos** limita los resultados de las dos pestañas a un **Comité** y a las reuniones celebradas entre **Celebrada desde** y **Celebrada hasta**. Pulsa **Aplicar** para filtrar y **Limpiar** para quitarlos. Los filtros se mantienen al cambiar de pestaña y el contador indica cuántos hay activos.
+
 ## Mi actividad
 
 En **Mi actividad** consultas el historial de lo que has hecho en Evidentia: evidencias enviadas, cambios de perfil, accesos, firmas, etc.
