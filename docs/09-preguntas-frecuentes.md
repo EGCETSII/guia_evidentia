@@ -36,6 +36,9 @@ Es lo esperado: solo se pueden editar los borradores y las evidencias rechazadas
 **Me han rechazado una evidencia. ¿Qué hago?**
 Abre la evidencia y lee el motivo, pulsa **Corregir** (vuelve a *Borrador*), cámbiala y vuelve a **Publicar**. Tendrán que revisarla de nuevo. Ver [capítulo 4](04-estudiante.md#si-te-rechazan-una-evidencia).
 
+**Me han puesto de coautor en una evidencia que no es mía. ¿Puedo quitarme?**
+Sí, mientras el plazo de subida esté abierto y antes de la aleatorización. Abre la evidencia (o búscala en *Evidencias en coautoría*) y pulsa **Dejar de ser coautor**. Sus horas dejan de contar para ti y se avisa al autor. Ver [capítulo 4](04-estudiante.md#mis-evidencias).
+
 **¿Por qué mis horas en evidencias no suben?**
 Solo cuentan las evidencias **aceptadas**. Las que están en borrador, pendientes o rechazadas no suman.
 

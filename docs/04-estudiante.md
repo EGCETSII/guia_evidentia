@@ -79,6 +79,8 @@ En la cabecera tienes **Nueva evidencia** (mientras el plazo de subida esté abi
 
 Debajo, la tabla **Evidencias en coautoría** reúne las evidencias de otros compañeros que te han nombrado coautor, con su **Autor**, **Horas** y **Estado**. Puedes abrirlas y descargar sus pruebas, pero solo su autor las edita. Los borradores no aparecen hasta que el autor los publica. Cuando te añaden como coautor recibes el aviso *«Te han añadido como coautor»*, y cuando la evidencia se acepta te llega el mismo aviso de aceptación que al autor.
 
+Si ya no quieres figurar en una evidencia *Pendiente de revisión* o *Aceptada*, pulsa **Dejar de ser coautor** (el icono de salida en su fila, o el botón de la cabecera al abrirla). Está disponible mientras el plazo de subida siga abierto y antes de la aleatorización. La ventana **«Dejar de ser coautor»** avisa: *«Dejarás de figurar en esta evidencia, sus horas no contarán en tu cómputo y se avisará a su autor.»* Confirma con **Sí, dejar de ser coautor**. El autor recibe el aviso *«Un coautor ha dejado tu evidencia»* y el abandono queda en el historial de la evidencia.
+
 Pulsa el título para abrir la evidencia. Mientras el plazo de subida esté abierto, cada fila ofrece además estas acciones:
 
 | Acción | Cuándo está disponible | Qué hace |
@@ -94,7 +96,7 @@ Al abrir una evidencia verás su estado, su comité y su código (`EV-0000`), y 
 - **Detalle**: los pasos recorridos (*Borrador*, *Enviada a revisión*, *Aceptada* o *Rechazada*), el motivo del rechazo si lo hay, la **Descripción**, las **Pruebas**, los **Coautores** si los tiene y la tarjeta **Datos**. Cada prueba tiene un botón para **descargarla**; las fotos (JPG, PNG, GIF, WebP, AVIF) y los PDF tienen además el botón **Ver**, con un ojo, que las muestra en una ventana sobre la propia página sin descargarlas; desde ahí también puedes abrirlas en otra pestaña o descargarlas.
 - **Historial**: todas las **versiones** de la evidencia con su estado y comité, cada cambio con su fecha y los **mensajes sobre esta evidencia** (abiertos o resueltos).
 
-Desde la cabecera puedes **Editar**, **Corregir** o **Eliminar** (mismas condiciones que en la lista), **Escribir al coordinador** (o **Escribir a presidencia**) sobre esa evidencia y **Cambiar de comité**.
+Desde la cabecera puedes **Editar**, **Corregir** o **Eliminar** (mismas condiciones que en la lista), **Escribir al coordinador** (o **Escribir a presidencia**) sobre esa evidencia y **Cambiar de comité**. Si figuras como coautor, la cabecera ofrece **Dejar de ser coautor** (mismas condiciones que en la tabla de coautoría).
 
 ### Editar una evidencia y el historial de versiones
 

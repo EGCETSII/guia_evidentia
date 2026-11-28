@@ -4,7 +4,7 @@
 
 Esta guía está escrita para las personas que **usan** la aplicación: estudiantes, coordinadores y secretarios de comité, coordinador de registro, presidencia y profesorado. No es documentación técnica ni de despliegue.
 
-> Guía correspondiente a la versión **4.4.0** de Evidentia.
+> Guía correspondiente a la versión **4.5.0** de Evidentia.
 
 ## Índice
 
